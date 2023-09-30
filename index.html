@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="box">
+        <div id="header">
+          <h1>Multiple Timers App</h1>
+        </div>
+        <button id="add-timer" onclick="addTimer()">ADD TIMER</button>
+        <div id="parent">
+          <div id="card">
+            <h4>Set Time</h4>
+            <div id="timer" contenteditable="true">00:00:00</div>
+            <button onclick="startTimer()">Set</button>
+          </div>
+          <!-- <button id="add-timer" onclick="addTimer()">ADD TIMER</button> -->
+        </div>
+      </div>
+    </main>
+    <script src="./timer.js"></script>
+  </body>
+</html>

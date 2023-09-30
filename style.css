@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+}
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+#box {
+  height: 40vh;
+  width: 40vw;
+  background-color: #1d1d23;
+  border-radius: 5%;
+  box-shadow: 4px 5px 4px 3px aqua;
+  display: block;
+  justify-content: center;
+}
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#header > h1 {
+  font: roboto;
+  color: #ffffff;
+  font-weight: 700;
+  size: 36px;
+  line-height: 42.19px;
+}
+#parent{
+  overflow: scroll;
+  height: 25vh;
+  width: fit-content;
+  margin-left: 1.5vw;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+#card {
+  width: 30vw;
+  height: 5vh;
+  top: 132px;
+  left: 438px;
+  border-radius: 20px;
+  background-color: #34344a;
+  margin-left: 5vw;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+#card > h4 {
+  color: white;
+}
+#card > button {
+  background-color: #f0f757;
+  border-radius: 10%;
+  width: 80px;
+  height: 30px;
+  border: none;
+}
+/* #card > div > span {
+  color: white;
+}
+.underline {
+  text-decoration: underline;
+} */
+#card:hover{
+  border: 1px solid white;
+  scale: 1;
+}
+#card > button:hover{
+  border: 1px solid wheat;
+  scale: 1.2;
+}
+#timer{
+  color: white;
+  /* width: fit-content; */
+  background-color: transparent;
+  background-color: transparent;
+  /* height: fit-content; */
+}
+#add-timer{
+  margin-left: 18vw;
+  margin-top: 15px;
+}
