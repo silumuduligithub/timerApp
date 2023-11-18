@@ -57,6 +57,22 @@ main {
   box-sizing: border-box;
   padding: 20px;
 }
+#card1 {
+  width: 30vw;
+  height: 5vh;
+  top: 132px;
+  left: 438px;
+  border-radius: 20px;
+  background-color: yellow;
+  margin-left: 5vw;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+}
 #card > h4 {
   color: white;
 }
@@ -81,7 +97,7 @@ main {
   border: 1px solid wheat;
   scale: 1.2;
 }
-#timer{
+.timer{
   color: white;
   /* width: fit-content; */
   background-color: transparent;
